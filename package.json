@@ -1,0 +1,9 @@
+{
+  "name": "devcheck",
+  "version": "1.0.0",
+  "description": "Aplicação demonstrativa de CI/CD",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/app.test.js"
+  }
+}
