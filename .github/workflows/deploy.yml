@@ -51,7 +51,10 @@ jobs:
       - name: Preparar arquivos
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: |
+            index.html
+            script.js
+            style.css
 
       - name: Fazer deploy
         id: deployment
